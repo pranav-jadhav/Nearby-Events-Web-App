@@ -1,0 +1,391 @@
+body,
+html {
+  height: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.form-box {
+  margin: auto;
+  width: 40%;
+  margin-top: 40px;
+  backdrop-filter: blur(11px);
+  background-color: rgba(255, 255, 255, 0.17);
+  border-radius: 25px;
+  padding-top: 2px;
+}
+
+#parentcard2 {
+  margin-top: 25px;
+}
+
+.heading {
+  text-align: center;
+  color: #e4e4e5;
+  font-family: Georgia, serif;
+  font-weight: lighter;
+  padding-bottom: 5px;
+  font-size: 33px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+.form-box input[type="text"] {
+  background: transparent;
+  width: 95%;
+  padding: 10px 15px;
+  margin: 8px 2.5%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #fff;
+  line-height: 15px;
+  border: 1px solid #c7cbcc;
+}
+
+.form-box input[type="number"] {
+  background: transparent;
+  width: 30%;
+  padding: 12px 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #fff;
+  line-height: 15px;
+  border: 1px solid #c7cbcc;
+
+}
+
+.form-box select {
+  background: transparent;
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid #c7cbcc;
+}
+
+.form-box button {
+  border: none;
+    outline: none;
+    color: #fff;
+    background-color: #ff7b25;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    border-radius: 0.312rem;
+    font-size: 1rem;
+    margin-left: 10px;
+    padding: 0.615rem 1.15rem;
+    border-bottom: solid #e85827 4px;
+}
+
+.form-box button:hover {
+  background-color: #fd8e53;
+}
+
+.form-box button[type="reset"] {
+  margin-left: 2px;
+  background-color: #4470af;
+  border-bottom: solid #3c4c74 4px;
+}
+
+.form-box button[type="reset"]:hover {
+  background-color: #6666ff;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 10px;
+  text-align: center;
+  box-shadow: rgb(192,191,191) 0px 5px 5px;
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  background-color: white;
+  table-layout: auto;
+  width: 80%;
+}
+
+.cur {
+  cursor: pointer;
+}
+
+td,
+th {
+  text-align: center;
+  color: black;
+}
+
+td {
+  padding: 20px;
+  text-align: center;
+}
+
+#nodata{
+  width: 1150px;
+    height: 30px;
+    text-align: center;
+    font-family: Arial;
+    font-size: small;
+    font-weight: bold;
+    padding-top: 15px;
+    color: red;
+    background-color: white;
+    margin: auto;
+}
+
+#Card1 {
+  width: 1000px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  margin: auto;
+  border-radius: 25px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  display: grid;
+}
+
+#card1InnerDiv {
+  display: grid;
+}
+
+#card1Heading {
+  color: white;
+  margin: auto;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+#containerCard1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  cursor: pointer;
+}
+
+.abc {
+  cursor: pointer;
+}
+
+.abc:hover {
+  color: blue;
+}
+
+#sectionCard1 {
+  width: 40%;
+  margin-top: 50px;
+  text-align: left;
+}
+
+#sectionCard2 {
+  width: 55%;
+  margin: auto;
+}
+#sectionCard1Text1 {
+  color: aqua;
+  font-size: 22px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+#sectionCard1Text2 {
+  color: white;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+#rightDivImg {
+  width: 90%;
+  margin: auto;
+}
+
+.downarrow {
+  height: 30px;
+  width: 30px;
+  border-right: solid white;
+  border-bottom: solid white;
+  border-width: 1px;
+  margin: auto;
+  rotate: 45deg;
+  margin-top: 0;
+  cursor: pointer;
+}
+
+.downarrow:hover {
+  border-width: 2px;
+  color: white;
+}
+
+#showVenueDetails {
+  color: rgb(194, 198, 195);
+  font-family: Arial;
+  font-size: large;
+  font-weight: 100;
+  margin-bottom: 0px;
+  text-align: center;
+  margin: 15px auto;
+}
+
+#container {
+  background-color: white;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 15px;
+  width: 65%;
+  margin: auto;
+}
+
+#card2div {
+  border: solid black;
+  margin: 10px;
+  border-width: 2px;
+  border-radius: 15px;
+  display: grid;
+}
+
+#ttle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#parentmainform{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+#child1mainform{
+  width: 35%;
+}
+
+#child2mainform{
+  width: 45%;
+}
+
+#photo {
+  margin-top: 15px;
+}
+
+#photo img {
+  width: 300px;
+  height: auto;
+  height: 90px;
+  width: 90px;
+  margin: auto;
+}
+
+#sections {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+#section1 {
+  width: 45%;
+  margin-bottom: 30px;
+  border-right-style: solid;
+  border-right-width: 2px;
+  margin-right: 0px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+#section2 {
+  width: 45%;
+  margin-bottom: 60px;
+}
+
+#section p {
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+#subcontainer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#sub1 {
+  margin-left: auto;
+  width: 40%;
+}
+
+#p1 {
+  text-align: right;
+  float: right;
+}
+
+#sub2 {
+  margin-right: auto;
+  width: 60%;
+}
+
+#p2 {
+  text-align: left;
+  float: left;
+  margin-right: 0px;
+  padding-left: 5px;
+}
+
+.card1hide {
+  display: none;
+}
+
+.card1show {
+  display: block;
+}
+
+#category {
+  margin-right: 0;
+  color: #c7cbcc;
+  background-color: transparent;
+}
+
+.onsale {
+  background-color: green;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.offsale {
+  background-color: red;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.rescheduled {
+  background-color: orange;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.cancelled {
+  background-color: black;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+#crd {
+  margin: 25px auto;
+  display: grid;
+}

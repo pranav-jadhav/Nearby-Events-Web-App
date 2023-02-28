@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <title>Events Search</title>
+</head>
+
+<body>
+    
+    <div class="form-box">
+        <form id="eventsSearch" action="javascript:submitted();" style="width: 100%;">
+            <div class="heading">
+                Events Search
+            </div>
+            <hr color="gray" style="width: 95%;">
+            <label style="color: #87bdd8; margin: 20px 2.5%;">Keyword<label style="color: red;">*</label></label>
+            <div>
+                <input type="text" required id="keyword">
+            </div>
+
+            <div id="parentmainform">
+                <div style="margin: 0 2.5%;" id="child1mainform">
+                    <label style="color: #87bdd8; width: 30%; margin-right: 15%;">Distance (miles)</label><br>
+                    <input type="number" placeholder="10" id="distance" style="color: #87bdd8; width: 100%; margin-right: 5%; margin-top: 8px">
+                </div>
+                <div style="margin: 0 2.5%;" id="child2mainform">
+                    <label style="color: #87bdd8;">Category<label style="color: red;">*</label></label><br>
+                    <select class=" solid" id="category" name="events" required style="width: 120%;">
+                        <option value="default" selected>Default</option>
+                        <option value="music">Music</option>
+                        <option value="sports">Sports</option>
+                        <option value="arts">Arts and Theatre</option>
+                        <option value="film">Film</option>
+                        <option value="miscellaneous">Miscellaneous</option>
+                    </select>
+                </div>
+            </div>
+
+            <label style="color: #87bdd8; margin: 20px 2.5%;">Location<label style="color: red;">*</label></label>
+
+            <input type="checkbox" onclick="locationCheckBox()" id="locationCheck" \> <label
+                style="color: gray;">Auto-Detection Location</label>
+            <input type="text" id="locationTextBox" required>
+            <br><br>
+            <button type="submit" style="margin: 20px 2.5%; margin-top: 0; margin-right: 3px;">SEARCH</button>
+            <button type="reset" onclick="clearForm()">CLEAR</button>
+        </form>
+    </div>
+    <br><br>
+
+    <table id="eventsList" style="display: none;">
+        
+    </table>
+
+    <!-- Card 1 -->
+    <div id="crd">
+        <div id="Card1" style="display: none;">
+            <div id="card1InnerDiv">
+                <p hidden>ABC</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Card 2 -->
+    <div id="parentcard2">
+        <div id="container" hidden>
+            
+        </div>
+    </div>
+</body>
+
+</html>
